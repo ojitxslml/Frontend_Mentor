@@ -1,0 +1,83 @@
+* {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px; //noticed that with 18px the text is too big
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(215, 51%, 70%);
+  border-radius: 0.5rem;
+}
+
+.title {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+.text {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.autor {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+.days {
+  font-size: 16px;
+}
+.eth {
+  color: hsl(178, 100%, 50%);
+}
+
+.avatar {
+  width: 12%;
+  margin-right: 16px;
+}
+
+/* image overlay */
+.wrap {
+  position: relative;
+}
+.wrap .card-img-top {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.wrap .boxView {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: hsla(178, 100%, 50%, 0.3);
+}
+/* hovers */
+.wrap .boxView:hover {
+  opacity: 0.75;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.autor:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
