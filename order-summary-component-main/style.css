@@ -1,0 +1,100 @@
+/* variables */
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+/* site default styles */
+* {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--pale-blue);
+}
+/* media queries for mobile screen */
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url("./images/pattern-background-mobile.svg");
+  }
+  * {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.card {
+  border-radius: 1.25rem;
+}
+
+.img-card {
+  border-radius: 1.25rem 1.25rem 0px 0px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.card-text {
+  font-weight: 500;
+  color: var(--desaturated-blue);
+  text-align: center;
+}
+
+.plan-container {
+  background-color: var(--very-pale-blue);
+  border-radius: 0.5rem;
+}
+
+.plan-title {
+  font-weight: 900;
+}
+
+.plan-text {
+  font-weight: 500;
+  color: var(--desaturated-blue);
+}
+
+#change {
+  color: var(--bright-blue);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: var(--bright-blue);
+  color: white;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+#cancel {
+  color: var(--desaturated-blue);
+  font-weight: 500;
+}
+
+/* hovers */
+
+.btn:hover {
+  color: white;
+  filter: opacity(70%);
+}
+
+#cancel:hover {
+  cursor: pointer;
+  color: black;
+}
+
+#change:hover {
+  filter: opacity(70%);
+  cursor: pointer;
+  text-decoration: none;
+}
