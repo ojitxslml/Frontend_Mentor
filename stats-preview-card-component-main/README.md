@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-solution-o8LBAmXwl](https://www.frontendmentor.io/solutions/stats-preview-card-component-solution-o8LBAmXwl)
-- Live Site URL: [ojitxslml.github.io/Frontend_Mentor/stats-preview-card-component-main](ojitxslml.github.io/Frontend_Mentor/stats-preview-card-component-main)
+- Live Site URL: [https://ojitxslml.github.io/Frontend_Mentor/stats-preview-card-component-main/](https://ojitxslml.github.io/Frontend_Mentor/stats-preview-card-component-main/)
 
 ## My process
 
