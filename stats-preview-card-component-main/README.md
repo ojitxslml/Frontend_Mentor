@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-solution-o8LBAmXwl](https://www.frontendmentor.io/solutions/stats-preview-card-component-solution-o8LBAmXwl)
+- Live Site URL: [ojitxslml.github.io/Frontend_Mentor/stats-preview-card-component-main](ojitxslml.github.io/Frontend_Mentor/stats-preview-card-component-main)
 
 ## My process
 
