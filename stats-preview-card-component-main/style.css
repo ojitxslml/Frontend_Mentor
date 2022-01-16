@@ -1,0 +1,114 @@
+:root {
+  /* ------------Colors ------------*/
+  /* Primary */
+  --Very-dark-blue: hsl(233, 47%, 7%);
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  --Soft-violet: hsl(277, 64%, 61%);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Slightly-transparent-white-main: hsla(0, 0%, 100%, 0.75);
+  --Slightly-transparent-white-stat: hsla(0, 0%, 100%, 0.6);
+}
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--Very-dark-blue);
+}
+
+.card {
+  background-color: var(--Dark-desaturated-blue);
+  border-radius: 0.5em;
+}
+.card-body {
+  padding-left: 4rem;
+  padding-right: 8rem;
+  background-color: var(--Dark-desaturated-blue);
+}
+
+.card-title {
+  color: var(--White);
+  font-weight: 700;
+  font-size: 36px;
+}
+.card-text {
+  color: var(--Slightly-transparent-white-main);
+  margin-right: 3rem;
+}
+
+.stat {
+  font-size: 13px;
+  color: var(--Slightly-transparent-white-stat);
+
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.img-mobile {
+  display: none;
+}
+
+.stat-num {
+  font-size: 24px;
+  color: var(--White);
+  font-family: "Lexend Deca", sans-serif;
+}
+.focus {
+  color: var(--Soft-violet);
+  font-weight: 700;
+  font-size: 36px;
+}
+
+/* overlay image with mix blend */
+
+.filter {
+  background: var(--Soft-violet);
+  overflow: hidden;
+  border-end-end-radius: 0.5em;
+  border-start-end-radius: 0.5em;
+}
+.img-fluid {
+  mix-blend-mode: multiply;
+  opacity: 80%;
+  border-end-end-radius: 0.5em;
+  border-start-end-radius: 0.5em;
+}
+
+@media only screen and (max-width: 540px) {
+  * {
+    text-align: center;
+  }
+  .img-mobile {
+    display: block;
+  }
+  .img-desktop {
+    display: none;
+  }
+  .card-body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: var(--Dark-desaturated-blue);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .card-text {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  * {
+    text-align: center;
+  }
+  .card-body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: var(--Dark-desaturated-blue);
+  }
+  .card-text {
+    margin-right: 0px;
+  }
+}
