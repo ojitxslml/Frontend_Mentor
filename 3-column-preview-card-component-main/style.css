@@ -1,0 +1,142 @@
+:root {
+  /* primary */
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral */
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+* {
+  font-size: 15px;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+  color: white;
+}
+
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: var(--Very-light-gray);
+}
+.flex-center {
+}
+
+.container {
+  display: flex;
+
+  justify-content: center;
+  height: 100vh;
+}
+
+@media only screen and (min-width: 711px) {
+  .container {
+    align-items: center;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+}
+
+.c1 {
+  background-color: var(--Bright-orange);
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+
+.c2 {
+  background-color: var(--Dark-cyan);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c3 {
+  background-color: var(--Very-dark-cyan);
+  border-bottom-right-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+@media only screen and (max-width: 710px) {
+  .c1 {
+    background-color: var(--Bright-orange);
+    border-top-left-radius: 0.75rem;
+    border-bottom-left-radius: 0;
+  }
+
+  .c2 {
+    background-color: var(--Dark-cyan);
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+  }
+
+  .c3 {
+    background-color: var(--Very-dark-cyan);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 484px) {
+  .c1 {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    border-bottom-left-radius: 0;
+  }
+
+  .c2 {
+    background-color: var(--Dark-cyan);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .c3 {
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    border-top-right-radius: 0rem;
+  }
+}
+.card {
+  padding: 4rem 1rem 4rem 1rem;
+}
+
+.card-body {
+  padding-left: 1rem;
+  margin-right: 2rem;
+  margin-left: 1.5rem;
+}
+
+.card-title {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: var(--Very-light-gray);
+}
+
+.card-text {
+  color: var(--Transparent-white);
+  margin-right: 2rem;
+  font-height: 400;
+}
+
+.card-btn {
+  margin-top: 5rem;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  mix-blend-mode: lighten;
+  border: 1px solid white;
+  border-radius: 1.25rem;
+  width: 60%;
+  padding: 0.75rem;
+}
+
+.card-btn:hover {
+  cursor: pointer;
+  color: var(--Very-light-gray);
+  background-color: hsla(0, 0%, 0%, 0);
+}
