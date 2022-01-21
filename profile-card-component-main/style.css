@@ -1,0 +1,128 @@
+:root {
+  /* ### Primary */
+
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+  /* ### Neutral */
+
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13%;
+  maring-left: 10px;
+  maring-right: 10px;
+}
+
+body {
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-position: -64% 120%, 155% -100%;
+  background-repeat: no-repeat, no-repeat;
+  background-color: var(--Dark-cyan);
+}
+
+.card {
+  box-shadow: 2px 6px 18px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+}
+
+.card-banner {
+  background-image: url("images/bg-pattern-card.svg");
+  background-repeat: no-reapeat;
+  background-size: cover;
+  width: 100%;
+  height: 8rem;
+  border-radius: 0.75rem 0.75rem 0px 0px;
+}
+
+.card-body {
+  padding-top: 2rem;
+  width: 20rem;
+  height: 11.5rem;
+  background-color: white;
+  border-radius: 0px 0px 0.75rem 0.75rem;
+}
+
+.div-img {
+  display: flex;
+  justify-content: center;
+}
+
+.card-userP {
+  align-self: center;
+  position: absolute;
+  border: 5px solid white;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.card-main {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+span {
+  color: var(--Dark-gray);
+  font-weight: 400;
+}
+
+.user-location {
+  color: var(--Dark-gray);
+  font-weight: 400;
+  margin-top: 0.5rem;
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+}
+
+hr {
+  border-top: 2px solid WhiteSmoke;
+}
+
+.user-stats {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.stat {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 0.25rem;
+  font-size: 10px;
+  color: var(--Dark-gray);
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    margin-top: 0;
+    height: 100vh;
+  }
+  body {
+    margin-top: 0;
+    background-size: contain;
+    background-position: left top, right bottom;
+  }
+}
