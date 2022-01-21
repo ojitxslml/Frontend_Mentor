@@ -20,8 +20,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-solution-KaOk2EmQ3](https://www.frontendmentor.io/solutions/profile-card-component-solution-KaOk2EmQ3)
+- Live Site URL: [https://ojitxslml.github.io/Frontend_Mentor/profile-card-component-main](https://ojitxslml.github.io/Frontend_Mentor/profile-card-component-main)
 
 ## My process
 
