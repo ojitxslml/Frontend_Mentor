@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/faq-accordion-card-challenge-IwF8VrVSA](https://www.frontendmentor.io/solutions/faq-accordion-card-challenge-IwF8VrVSA)
+- Live Site URL: [https://ojitxslml.github.io/Frontend_Mentor/faq-accordion-card-main/](https://ojitxslml.github.io/Frontend_Mentor/faq-accordion-card-main/)
 
 ## My process
 
