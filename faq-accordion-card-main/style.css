@@ -51,6 +51,7 @@ body {
   }
 
   .card-faq {
+    max-width: 100%;
     width: 25rem;
     padding-left: 2rem;
     padding-right: 2rem;
