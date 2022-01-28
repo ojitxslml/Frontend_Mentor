@@ -1,0 +1,240 @@
+:root {
+  /*Colors
+
+### Primary*/
+
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  /*Neutral*/
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+}
+.user {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: minmax(80px, auto);
+}
+
+.user img {
+  grid-column: 1/2;
+  grid-row: 1;
+  border-radius: 50%;
+  width: 45px;
+  align-self: center;
+}
+
+.user .name span {
+  color: var(--Soft-Pink);
+  mix-blend-mode: light;
+  font-weight: 400;
+}
+
+.name {
+  align-self: center;
+  grid-column: 2/4;
+  color: white;
+  font-weight: 500;
+}
+
+.description {
+  margin-right: 0.5rem;
+  line-height: 22px;
+}
+
+@media only screen and (min-width: 471px) {
+  body {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    background-image: url("images/bg-pattern-top-desktop.svg"),
+      url("images/bg-pattern-bottom-desktop.svg");
+    background-position: 10% 0%, 90% 100%;
+    background-repeat: no-repeat, no-repeat;
+    height: 100vh;
+  }
+
+  main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 2rem;
+  }
+
+  .grid-main {
+    grid-column: 1/2;
+    grid-row: 1;
+    margin-top: 4rem;
+    margin-right: 8rem;
+    margin-left: 1rem;
+  }
+
+  .rates {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    margin-top: 8rem;
+    margin-right: 1rem;
+  }
+
+  .rate {
+    background-color: var(--light-grayish-magenta);
+    margin-top: 1rem;
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .rate1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6rem;
+    padding: right;
+  }
+
+  .rate1 span {
+    margin-left: 2rem;
+    margin-right: 5rem;
+  }
+
+  .rate2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .rate2 span {
+    margin-left: 2rem;
+    margin-right: 5rem;
+  }
+
+  .rate3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+  }
+
+  .rate3 span {
+    margin-left: 2rem;
+    margin-right: 5rem;
+  }
+
+  .stars {
+    margin-left: 1rem;
+  }
+
+  h1 {
+    color: var(--Very-Dark-Magenta);
+    font-size: 56px;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-weight: 500;
+    color: var(--dark-grayish-magenta);
+    margin-top: 0px;
+  }
+  .reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 1rem;
+  }
+
+  .review {
+    height: 12rem;
+    margin: 1rem;
+    background-color: var(--Very-Dark-Magenta);
+    padding: 3rem;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+  }
+
+  .r1 {
+    margin-bottom: 4rem;
+  }
+
+  .r2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .r3 {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  body {
+    margin-top: 4.5rem;
+    background-image: url("images/bg-pattern-top-mobile.svg"),
+      url("images/bg-pattern-bottom-mobile.svg");
+    background-position: center top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    height: 100%;
+  }
+  h1 {
+    color: var(--Very-Dark-Magenta);
+    font-size: 36px;
+    text-align: center;
+  }
+
+  h4 {
+    font-weight: 500;
+    color: var(--dark-grayish-magenta);
+    text-align: center;
+    margin: 10px;
+  }
+
+  .rates {
+    margin: 1rem;
+    margin-top: 3rem;
+  }
+
+  .rate {
+    background-color: var(--light-grayish-magenta);
+    margin-top: 1rem;
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .stars {
+    margin-bottom: 5px;
+  }
+
+  .reviews {
+    margin-top: 3rem;
+  }
+
+  .review {
+    margin: 1rem;
+    background-color: var(--Very-Dark-Magenta);
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+  }
+}
