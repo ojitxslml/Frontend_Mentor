@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/social-proof-section-solution-G1JJ05Jhm](https://www.frontendmentor.io/solutions/social-proof-section-solution-G1JJ05Jhm)
+- Live Site URL: [https://ojitxslml.github.io/Frontend_Mentor/social-proof-section-master/](https://ojitxslml.github.io/Frontend_Mentor/social-proof-section-master/)
 
 ## My process
 
