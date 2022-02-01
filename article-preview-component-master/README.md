@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-solution-Dhjk1VBrR](https://www.frontendmentor.io/solutions/article-preview-component-solution-Dhjk1VBrR)
+- Live Site URL: [https://ojitxslml.github.io/Frontend_Mentor/article-preview-component-master/](https://ojitxslml.github.io/Frontend_Mentor/article-preview-component-master/)
 
 ## My process
 
