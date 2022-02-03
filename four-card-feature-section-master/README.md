@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/four-card-feature-section-solution-BDgrYnI8e](https://www.frontendmentor.io/solutions/four-card-feature-section-solution-BDgrYnI8e)
+- Live Site URL: [https://ojitxslml.github.io/Frontend_Mentor/four-card-feature-section-master/](https://ojitxslml.github.io/Frontend_Mentor/four-card-feature-section-master/)
 
 ## My process
 
