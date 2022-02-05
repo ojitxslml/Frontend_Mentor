@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="container__left">
+          <div class="logo">
+            <img class="logo__img" src="images/logo.svg" alt="logo.svg" />
+          </div>
+          <div class="image-mb">
+            <img
+              class="image__img-mb"
+              src="images/hero-mobile.jpg"
+              alt="hero-mobile.jpg"
+            />
+          </div>
+          <div class="title">
+            <span class="title__slim">We're</span> <br />
+            <span class="title__bold"
+              >coming <br />
+              soon</span
+            >
+          </div>
+          <div class="description">
+            <span class="description__text"
+              >Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.</span
+            >
+          </div>
+          <form class="Email">
+            <input
+              type="text"
+              placeholder="Email Address"
+              id="Email"
+              name="Email"
+              class="Email__Box"
+            />
+            <img
+              src="images/icon-error.svg"
+              class="Email__errorImg"
+              alt="error.svg"
+            />
+            <button
+              type="submit"
+              id="btnForm"
+              name="btnForm"
+              class="Email__btn"
+            >
+              <img src="images/icon-arrow.svg" alt="" />
+            </button>
+          </form>
+          <label for="btnForm" class="Email__error"
+            >Please provide a valid email</label
+          >
+        </div>
+        <div class="container__right">
+          <div class="image">
+            <img
+              class="image__img"
+              src="images/hero-desktop.jpg"
+              alt="hero-desktop.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
