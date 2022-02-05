@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-solution-9UuES1Dw1](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-solution-9UuES1Dw1)
+- Live Site URL: [https://ojitxslml.github.io/Frontend_Mentor/base-apparel-coming-soon-master/](https://ojitxslml.github.io/Frontend_Mentor/base-apparel-coming-soon-master/)
 
 ## My process
 
