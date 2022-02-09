@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="container__box">
+        <div class="box__firstBox">
+          <p class="firstBox__title">Learn to code by watching others</p>
+          <p class="firstBox__text">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="secondBox__banner">
+          <a href="#">
+            <p><span>Try it free 7 days</span> then $20/mo. thereafter</p></a
+          >
+        </div>
+        <div class="box__secondBox">
+          <div class="secondBox__Register">
+            <form action="" name="form" class="register__form">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="First Name"
+              />
+              <div class="errorBox" style="display: none">
+                <span>First Name cannot be empty</span>
+              </div>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Last Name"
+              />
+              <div class="errorBox" style="display: none">
+                <span>Last Name cannot be empty</span>
+              </div>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+              />
+              <div class="errorBox" style="display: none">
+                <span>Looks like this is not an email</span>
+              </div>
+              <input
+                type="password"
+                name="pass"
+                id="pass"
+                placeholder="Password"
+              />
+              <div class="errorBox" style="display: none">
+                <span>Password cannot be empty</span>
+              </div>
+              <button type="submit" id="btnForm">Claim your free trial</button>
+              <p class="secondBox__terms">
+                By clicking the button, you are agreeing to our
+                <a href="">Terms and Services</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
