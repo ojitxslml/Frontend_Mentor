@@ -1,0 +1,284 @@
+// Primary
+
+$Blue: hsl(223, 87%, 63%);
+
+//Secondary
+
+$Pale-Blue: hsl(223, 100%, 88%);
+$Light-Red: hsl(354, 100%, 66%);
+
+//Neutral
+
+$Gray: hsl(0, 0%, 59%);
+$Very-Dark-Blue: hsl(209, 33%, 12%);
+
+* {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+@media only screen and(min-width:1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 2rem;
+  }
+
+  .title {
+    h1 {
+      color: $Gray;
+      font-weight: 300;
+      font-size: 42px;
+      margin: 0;
+      span {
+        font-weight: 700;
+        font-size: 42px;
+        color: black;
+      }
+    }
+  }
+
+  .subtitle {
+    h2 {
+      font-weight: 300;
+    }
+    margin-bottom: 1rem;
+  }
+
+  .in_email {
+    text-decoration: none;
+    border: 1px solid $Pale-Blue;
+    outline: 0;
+    padding: 0.5rem 6rem 0.5rem 1rem;
+    border-radius: 1rem;
+  }
+  .in_email::placeholder {
+    color: $Pale-Blue;
+    font-size: 15px;
+  }
+
+  .in_email:focus {
+    border: 1px solid $Gray;
+  }
+
+  .errorMsg {
+    color: $Light-Red;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 5px;
+    visibility: hidden;
+  }
+
+  .btn_notify {
+    margin-left: 10px;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    background-color: $Blue;
+    color: white;
+    font-size: 15px;
+    padding: 0.7rem 2.4rem 0.7rem 2.4rem;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px 0px hsla(223, 87%, 63%, 0.3);
+  }
+
+  .btn_notify:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+  }
+
+  form {
+    margin-bottom: 3.5rem;
+  }
+
+  .mainImage {
+    width: 40%;
+    margin-bottom: 3.5rem;
+  }
+
+  .img_main {
+    width: 100%;
+  }
+
+  .copy {
+    color: $Gray;
+    font-size: 14px;
+    margin: 1rem;
+  }
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      margin: 0px 5px;
+      padding: 10px;
+      border-radius: 50%;
+      border: 1px solid $Pale-Blue;
+      height: 12px;
+      width: 12px;
+      display: flex;
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      i {
+        color: $Blue;
+        font-size: 16px;
+      }
+    }
+  }
+  a:hover {
+    background-color: $Blue;
+    color: white;
+    i {
+      color: white;
+    }
+  }
+}
+@media only screen and(max-width:1023px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 2rem 0;
+  }
+
+  .title {
+    h1 {
+      color: $Gray;
+      font-weight: 300;
+      font-size: 24px;
+      margin: 0;
+      span {
+        font-weight: 700;
+        font-size: 24px;
+        color: black;
+      }
+    }
+  }
+
+  .subtitle {
+    h2 {
+      font-weight: 300;
+      font-size: 16px;
+    }
+    margin-bottom: 1rem;
+  }
+
+  form {
+    margin-bottom: 4rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(1px, auto);
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+  }
+
+  .in_email {
+    grid-row: 1;
+    text-decoration: none;
+    border: 1px solid $Pale-Blue;
+    outline: 0;
+    padding: 0.5rem 4rem 0.5rem 1rem;
+    border-radius: 1rem;
+  }
+  .in_email::placeholder {
+    color: $Pale-Blue;
+    font-size: 15px;
+  }
+
+  .in_email:focus {
+    border: 1px solid $Gray;
+  }
+
+  .errorMsg {
+    color: $Light-Red;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    visibility: hidden;
+    text-align: center;
+  }
+
+  .btn_notify {
+    grid-row: 3;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    background-color: $Blue;
+    color: white;
+    font-size: 15px;
+    padding: 0.7rem 7rem 0.7rem 7rem;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px 0px hsla(223, 87%, 63%, 0.3);
+  }
+
+  .btn_notify:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+  }
+
+  .mainImage {
+    width: 80%;
+    margin-bottom: 4rem;
+  }
+
+  .img_main {
+    width: 100%;
+  }
+
+  .copy {
+    color: $Gray;
+    font-size: 14px;
+    margin: 1rem;
+  }
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      margin: 0px 5px;
+      padding: 10px;
+      border-radius: 50%;
+      border: 1px solid $Pale-Blue;
+      height: 12px;
+      width: 12px;
+      display: flex;
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      i {
+        color: $Blue;
+        font-size: 16px;
+      }
+    }
+  }
+  a:hover {
+    background-color: $Blue;
+    color: white;
+    i {
+      color: white;
+    }
+  }
+}
+.visibilityTrue {
+  visibility: visible !important;
+}
+.errorBorder {
+  border: 1px solid hsl(354, 100%, 66%);
+}
