@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/ping-coming-soon-page-solution-3h77rqnSN](https://www.frontendmentor.io/solutions/ping-coming-soon-page-solution-3h77rqnSN)
+- Live Site URL: [https://ojitxslml.github.io/Frontend_Mentor/ping-coming-soon-page-master/](https://ojitxslml.github.io/Frontend_Mentor/ping-coming-soon-page-master/)
 
 ## My process
 
