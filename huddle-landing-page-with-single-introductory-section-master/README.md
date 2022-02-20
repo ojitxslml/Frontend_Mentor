@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with single introductory section solution
 
-This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ### The challenge
 
@@ -11,8 +11,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-solution-qBBlB-OQA](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-solution-qBBlB-OQA)
+- Live Site URL: [https://ojitxslml.github.io/Frontend_Mentor/huddle-landing-page-with-single-introductory-section-master/](https://ojitxslml.github.io/Frontend_Mentor/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
