@@ -1,0 +1,136 @@
+//Primary
+$Light-Cyan: hsl(193, 38%, 86%);
+$Neon-Green: hsl(150, 100%, 66%);
+
+//Neutral
+$Grayish-Blue: hsl(217, 19%, 38%);
+$Dark-Grayish-Blue: hsl(217, 19%, 24%);
+
+* {
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: $Dark-Grayish-Blue;
+  backdrop-filter: brightness(60%);
+  height: 100vh;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advice {
+    background-color: $Dark-Grayish-Blue;
+    width: 20rem;
+    border-radius: 0.5rem;
+  }
+
+  .advice__id {
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: $Neon-Green;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .advice__text {
+    margin: 0 1.5rem;
+    color: $Light-Cyan;
+    text-align: center;
+  }
+
+  .advice__divider {
+    text-align: center;
+    margin: 1rem 1.5rem;
+    height: 1rem;
+    background-image: url("images/pattern-divider-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .advice__dice {
+    text-align: center;
+    margin: 0;
+    height: 1rem;
+  }
+
+  .dice_img {
+    position: relative;
+    margin: 0;
+    background-color: $Neon-Green;
+    padding: 0.6rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .dice_img:hover {
+    box-shadow: 0px 0px 40px 5px #52ffa8;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advice {
+    background-color: $Dark-Grayish-Blue;
+    width: 14rem;
+    border-radius: 0.5rem;
+  }
+
+  .advice__id {
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: $Neon-Green;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .advice__text {
+    margin: 0 1.5rem;
+    font-size: 24px;
+    color: $Light-Cyan;
+    text-align: center;
+  }
+
+  .advice__divider {
+    text-align: center;
+    margin: 1rem 1.52rem;
+    height: 1rem;
+    background-image: url("images/pattern-divider-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .advice__dice {
+    text-align: center;
+    margin: 0;
+    height: 1rem;
+  }
+
+  .dice_img {
+    position: relative;
+    margin: 0;
+    background-color: $Neon-Green;
+    padding: 0.6rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .dice_img:hover {
+    box-shadow: 0px 0px 40px 5px #52ffa8;
+  }
+}
