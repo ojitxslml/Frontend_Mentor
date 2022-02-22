@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
 }); 
 
 const fetchData = async (url = "https://api.adviceslip.com/advice") =>{
-    id.innerHTML = `<p class="advice__id">Advice #...</p>`;
-    advice.innerHTML = `<h1 class="advice__text">Loading...</h1>`;
+    id.innerHTML = `Advice #...`;
+    advice.innerHTML = `Loading...`;
 console.log("loading...")
 //ASYNC y AWAIT; USE TRY CATCH
 try{
@@ -27,6 +27,6 @@ diceBtn.addEventListener("click", () =>{
 });
     
 const drawAdvice = (data) =>{
-    id.innerHTML = `<p class="advice__id">Advice #${data.slip.id}</p>`;
-    advice.innerHTML = `<h1 class="advice__text">“${data.slip.advice}”</h1>`;
+    id.innerHTML = `Advice #${data.slip.id}`;
+    advice.innerHTML = `“${data.slip.advice}”`;
 }
