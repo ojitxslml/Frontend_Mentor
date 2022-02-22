@@ -3,9 +3,8 @@ $Light-Cyan: hsl(193, 38%, 86%);
 $Neon-Green: hsl(150, 100%, 66%);
 
 //Neutral
-$Grayish-Blue: hsl(217, 19%, 38%);
-$Dark-Grayish-Blue: hsl(217, 19%, 24%);
-
+$Grayish-Blue: hsl(217, 19%, 24%);
+$Dark-Grayish-Blue: hsl(222, 24%, 16%);
 * {
   font-size: 28px;
   font-family: "Manrope", sans-serif;
@@ -14,7 +13,6 @@ $Dark-Grayish-Blue: hsl(217, 19%, 24%);
 body {
   margin: 0;
   background-color: $Dark-Grayish-Blue;
-  backdrop-filter: brightness(60%);
   height: 100vh;
 }
 
@@ -27,7 +25,7 @@ body {
   }
 
   .advice {
-    background-color: $Dark-Grayish-Blue;
+    background-color: $Grayish-Blue;
     width: 20rem;
     border-radius: 0.5rem;
   }
@@ -85,7 +83,7 @@ body {
   }
 
   .advice {
-    background-color: $Dark-Grayish-Blue;
+    background-color: $Grayish-Blue;
     width: 14rem;
     border-radius: 0.5rem;
   }

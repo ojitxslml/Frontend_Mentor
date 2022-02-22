@@ -5,9 +5,7 @@
 
 body {
   margin: 0;
-  background-color: #323a49;
-  -webkit-backdrop-filter: brightness(60%);
-          backdrop-filter: brightness(60%);
+  background-color: #1f2533;
   height: 100vh;
 }
 
