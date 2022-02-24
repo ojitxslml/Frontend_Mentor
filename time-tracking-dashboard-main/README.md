@@ -8,8 +8,8 @@ In this project I learned how to manipulate the data of a json file 😀
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/time-tracking-dashboard-solution-SqQpOLgcv](https://www.frontendmentor.io/solutions/time-tracking-dashboard-solution-SqQpOLgcv)
+- Live Site URL: [https://ojitxslml.github.io/Frontend_Mentor/time-tracking-dashboard-main/](https://ojitxslml.github.io/Frontend_Mentor/time-tracking-dashboard-main/)
 
 ## Author
 
