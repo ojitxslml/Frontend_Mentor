@@ -163,7 +163,7 @@ $Pale-Blue: hsl(236, 100%, 87%);
       }
     }
   }
-  span:hover {
+  .card-options span:hover {
     color: white;
     letter-spacing: 1px;
   }
@@ -357,7 +357,7 @@ $Pale-Blue: hsl(236, 100%, 87%);
         font-weight: 500;
         cursor: pointer;
       }
-      span:hover {
+      .card-options span:hover {
         color: white;
         letter-spacing: 1px;
       }

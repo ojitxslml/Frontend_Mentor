@@ -178,7 +178,7 @@
     font-weight: 300;
     color: #bdc1ff;
   }
-  span:hover {
+  .card-options span:hover {
     color: white;
     letter-spacing: 1px;
   }
@@ -413,7 +413,7 @@
     font-weight: 500;
     cursor: pointer;
   }
-  .stats .card-options span:hover {
+  .stats .card-options .card-options span:hover {
     color: white;
     letter-spacing: 1px;
   }
