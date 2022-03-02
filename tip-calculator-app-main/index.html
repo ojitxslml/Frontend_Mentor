@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo.svg" />
+      </div>
+      <div class="card">
+        <div class="card__form">
+          <form action="">
+            <p class="txtBill">Bill</p>
+            <input
+              type="number"
+              name="bill"
+              id="bill"
+              class="bill"
+              placeholder="0"
+            />
+            <p class="txt_tip">Select Tip %</p>
+            <div class="form__tip">
+              <button class="btn5">5%</button>
+              <button class="btn10">10%</button>
+              <button class="btn15">15%</button>
+              <button class="btn25">25%</button>
+              <button class="btn50">50%</button>
+              <input
+                type="number"
+                class="tip"
+                name="tip"
+                id="tip"
+                placeholder="Custom"
+              />
+            </div>
+            <div class="ppl__label">
+              <p>Number of People</p>
+              <p class="txtError hidden">Can't be zero</p>
+            </div>
+            <input
+              class="ppl_number"
+              type="number"
+              name="ppl_number"
+              id="ppl_number"
+              placeholder="0"
+            />
+          </form>
+        </div>
+        <div class="card__info">
+          <p class="tip_txt">
+            Tip Amount <br />
+            <span>/ person</span>
+          </p>
+          <p class="tipAmount amount" id="lblTip">$0.00</p>
+          <p class="total_txt">
+            Total <br />
+            <span>/ person</span>
+          </p>
+          <p class="totalAmount amount" id="lblTotal">$0.00</p>
+          <button disabled id="btnReset">Reset</button>
+        </div>
+      </div>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
