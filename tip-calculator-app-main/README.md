@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/tip-calculator-app-solution-e1rmJobbJ](https://www.frontendmentor.io/solutions/tip-calculator-app-solution-e1rmJobbJ)
+- Live Site URL: [https://ojitxslml.github.io/Frontend_Mentor/tip-calculator-app-main/](https://ojitxslml.github.io/Frontend_Mentor/tip-calculator-app-main/)
 
 ### Built with
 

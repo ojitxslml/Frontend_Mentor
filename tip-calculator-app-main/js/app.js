@@ -44,7 +44,7 @@ for (const button of btnTip){
     button.addEventListener("click", (btn) =>{
         btn.preventDefault();
         txtTip.value = "";
-       tipx = calcTip((btn.target.classList.value), (totalx));
+       tipx = calcTip((btn.target.classList.item(0)), (totalx));
        calcTotal();
     });
 }
@@ -52,13 +52,10 @@ for (const button of btnTip){
 const calcTip = (tip = 0, total=0)=>{
     total = parseFloat(total);
     if(tip===0){
-        // tipDiv = ((total - totalx) / pplx) ;
-        // console.log(tipDiv, total, totalx, pplx)
-        // lblTip.innerHTML = "$"+tipDiv.toFixed(2);
         return (total - totalx);
     }else{
         for (const button of btnTip) {
-            if(button.classList.value === tip){
+            if(button.classList.item(0) === tip){
                 button.classList.add("selected");
                 txtTip.removeAttribute("style");
             }else{
@@ -83,13 +80,11 @@ const calcTip = (tip = 0, total=0)=>{
                 total = total + total*0.5;
             break;
             default:
+                console.log(tip)
                 total = total + total*tip*0.01;
                 break;
         }
         return (total - totalx);
-        // tipDiv = ((total - totalx) / pplx) ;
-        // console.log(tipDiv, total, totalx, pplx)
-        // lblTip.innerHTML = "$"+tipDiv.toFixed(2);
     }
 }
 
