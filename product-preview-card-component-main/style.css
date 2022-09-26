@@ -32,14 +32,14 @@ body {
     grid-gap: 2rem;
     background-color: White;
     border-radius: 1rem;
-    width: 46rem;
-    height: 36rem;
+    width: 650px;
+    height: 500px;
   }
   .card__body {
     margin: 2rem 0.5rem;
   }
   .card-img {
-    height: 100%;
+    max-height: 100%;
     border-radius: 1rem 0rem 0rem  1rem;
   }
   .card__type-text {
