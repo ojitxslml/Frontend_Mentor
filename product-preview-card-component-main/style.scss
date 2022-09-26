@@ -22,7 +22,11 @@ height: 100vh;
   display: flex;
   background-color: $Cream;
   justify-content: center;
-  align-items: center;
+ 
+}
+
+.container{
+    align-items: center;
 }
 
 @media only screen and (min-width: 1024px){
