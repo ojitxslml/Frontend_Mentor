@@ -29,6 +29,10 @@ rate.innerHTML = opt;
 
 
 button.addEventListener("click", ()=>{
- first_card.classList.add("disable");
- second_card.classList.remove("disable")
+    if(opt != 0){
+        first_card.classList.add("disable");
+        second_card.classList.remove("disable")
+    }else{
+        alert("please, select a value!")
+    }
 });
