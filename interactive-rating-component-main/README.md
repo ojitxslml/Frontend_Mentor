@@ -39,6 +39,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [0x5](https://www.0x5.cl)
+- Frontend Mentor - [@ojitxslml](https://www.frontendmentor.io/profile/ojitxslml)
+- Twitter - [@0x5_lml](https://www.twitter.com/0x5_lml)
